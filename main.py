@@ -5,4 +5,4 @@ st.write('Hello world')
 st.balloons()
 
 data = load_iris(as_frame=True).frame
-data.head()
+st.write(data.head())
